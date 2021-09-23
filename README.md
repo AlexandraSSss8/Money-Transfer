@@ -16,8 +16,10 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
         int balance1 = 2000000;
         int balance2 = 500000;
         int Sum = balance1 + balance2;
