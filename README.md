@@ -16,11 +16,16 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
+public class Main {
+    public static void main(String[] args) {
+        int balance1 = 2000000;
+        int balance2 = 500000;
+        int Sum = balance1 + balance2;
+        System.out.println(Sum);
+
+    }
+}
+
 
 ### NetBeans ###
 /nbproject/private/
